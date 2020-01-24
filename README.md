@@ -11,9 +11,10 @@ JUnit 4, JDK 13
 
 # Assumptions + Comments
 ## Disclaimer 
-- Correctness is the first requirement to a program, after correctness, we are interested in performance.
+- Explanations of design decisions can be found in the code.
 
-- The correctness and performance of this program depends a lot on the environment that it is run in:
+- Correctness is the first requirement to a program, after correctness, we are interested in performance.
+The correctness and performance of this program depends a lot on the environment that it is run in:
 Computer OS, running programs, amount of RAM, Memory allocated to JVM (heap, permgen, stack size, etc),
 and of course the volume of data being processed.
 
