@@ -29,3 +29,37 @@ why not use _binary files_ instead of raw text files? This also means less disk 
 If I had to solve this issue in a professional context, I would look to see if an existing library
 already solves the issue instead of reinventing the wheel because it means less bugs, and most likely 
 better performance and more time saved.
+
+# Project Structure
+```
+.
+├── README.md
+├── lib
+│   ├── hamcrest-core-1.3.jar
+│   └── junit-4.12.jar
+├── src
+│   └── com
+│       └── clarity
+│           └── connectionsFileParser
+│               ├── ConnectionsParser.java
+│               ├── Main.java
+│               └── TailingConnectionsParser.java
+└── test
+    └── com
+        └── clarity
+            └── connectionsFileParser
+                ├── Integration
+                │   └── TailingConnectionsParserTest.java
+                ├── Unit
+                │   ├── ConnectionsParserTest.java
+                │   └── MainTest.java
+                ├── src
+                │   ├── AutoDeletingTempFile.java
+                │   └── RandomConnectionsSimulator.java
+                └── testFiles
+                    ├── input-file-0.txt
+                    ├── input-file-10000.txt
+                    ├── input-file-5.txt
+                    ├── input-file-7.txt
+                    └── randomNames.txt
+```

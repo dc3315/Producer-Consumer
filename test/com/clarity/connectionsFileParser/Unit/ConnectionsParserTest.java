@@ -14,9 +14,6 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.*;
 
-/**
- * Tests that
- */
 public class ConnectionsParserTest {
 
     public static final long START_TIME = 1565647204351L;
