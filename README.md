@@ -10,7 +10,7 @@ This code uses java JDK 13 features!
 JUnit 4, JDK 13
 
 # Assumptions + Comments
-## Disclaimer 
+## Notes
 - Explanations of design decisions can be found in the code.
 
 - Correctness is the first requirement to a program, after correctness, we are interested in performance.
