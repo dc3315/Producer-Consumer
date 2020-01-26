@@ -9,7 +9,7 @@ This code uses java JDK 13 features!
 # Dependencies
 JUnit 4, JDK 13
 
-# Assumptions + Comments
+# Comments
 ## Notes
 - Explanations of design decisions can be found in the code.
 
