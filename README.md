@@ -27,9 +27,9 @@ hence a focus on I/O input and output would speed up performance. If the format 
 why not use _binary files_ instead of raw text files? This also means less disk space consumption.
 
 ## About external libraries
-If I had to solve this issue in a professional context, I would look to see if an existing library
-already solves the issue instead of reinventing the wheel because it means less bugs, and most likely 
-better performance and more time saved.
+If I had to solve this issue in a professional context, I would look to see if an open-source library
+already solves the problem or part of the problem, this would save time, bugs and most likely provide better
+performance than my own code given that it is more mature. In this particular scenario, I believe Apache Kafka would do a great job: https://kafka.apache.org/uses
 
 # Project Structure
 ```
